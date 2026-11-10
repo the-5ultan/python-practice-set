@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+name = name.upper()
+print(f"Your name in uppercase {name}!")
+name = name.lower()
+print(f"Your name in lowercase {name}!")
+name = name.title()
+print(f"Your name in title case {name}!")
