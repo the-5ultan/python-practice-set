@@ -5,9 +5,9 @@ class car:
     model = ""
     year = 0
     def __init__(self, make, model, year):
-        self.make = make
+        self.make = make #object attribute
         self.model = model
-        self.year = year
+        self.year = year # self is like this in java and c++ it is used to refer to the current instance of the class.
 
     def start_engine(self):
         print(f"The {self.year} {self.make} {self.model}'s engine has started.")
